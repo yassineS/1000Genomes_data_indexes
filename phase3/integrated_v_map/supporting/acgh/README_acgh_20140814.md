@@ -1,4 +1,4 @@
-#aCGH README
+# aCGH README
 
 This file describes the aCGH data in this directory.
 

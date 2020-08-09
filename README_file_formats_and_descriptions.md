@@ -1,14 +1,14 @@
-#File formats and descriptions
+# File formats and descriptions
 
 This file provides information on some of the file formats used to make data available on this site.
 
-###CRAM
+### CRAM
 .cram files use a reference-based format to store data. This format is being used to supply alignment data on this site. Detailed information on working with our .cram files is provided in ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/README_using_1000genomes_cram.md.
 
-###CRAI
+### CRAI
 .crai files are index files which accompany CRAM files. They must be present in order to work with .cram files for most purposes.
 
-###BAS
+### BAS
 .bas files are .cram or .bam statistic files with one line per readgroup and columns separated by
 tabs. The first line is a header that describes each column. The first six columns
 provide meta information about each readgroup.
@@ -41,7 +41,7 @@ Each column is described in detail below:
              Column 20 '#_duplicate_reads': The number of reads which were marked as duplicates.
              Column 21 '#_duplicate_bases': The number of bases which were narked as duplicated
 
-###INDEX
+### INDEX
 Various types of index file exist on the site. These are tab-delimited files where the data is arranged in columns. Immediately before the body of the file there is a header line, which starts with #, that gives the column names. In addition, index files may have further information at the head of the file. These lines start with ## and can provide descriptions of the columns, the date the index was generated and other pieces of information, as appropriate to the file and data set.
 
 An example of the start of such a file, in this case an alignment index file, is below:
@@ -58,5 +58,5 @@ An example of the start of such a file, in this case an alignment index file, is
          ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12893/alignment/NA12893.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.cram	4aa7f5b61d4365a556c980278b9be5a1	ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12893/alignment/NA12893.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.cram.crai	ae3d1ac0de67d58d192a96508bad85b4	ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12893/alignment/NA12893.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.bam.bas	7fb61b29c6b5fc716e9167affab56d92
          ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12892/alignment/NA12892.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.cram	8acdcd17349546b5ca1b45111e30fc07	ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12892/alignment/NA12892.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.cram.crai	555de96d6baf2e16630dadd9a6b5b038	ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/illumina_platinum_pedigree/data/CEU/NA12892/alignment/NA12892.alt_bwamem_GRCh38DH.20150706.CEU.illumina_platinum_ped.bam.bas	5079d6d9dfcb0eb4631d11035ec71b16
 
-###Further information
+### Further information
 For further information, please contact info@1000genomes.org.

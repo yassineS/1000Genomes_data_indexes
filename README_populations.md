@@ -1,4 +1,4 @@
-#Populations
+# Populations
 
 This file describes the population codes where assigned to samples collected for the 1000 Genomes project. These codes are used to organise the files in the data_collections' project data directories and can also be found in column 11 of many sequence index files.
 
@@ -7,7 +7,7 @@ There are also two tsv files, which contain the population codes and description
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20131219.populations.tsv
 ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/phase3/20131219.superpopulations.tsv
 
-###Populations and codes
+### Populations and codes
 
          CHB	Han Chinese             Han Chinese in Beijing, China
          JPT	Japanese                Japanese in Tokyo, Japan
